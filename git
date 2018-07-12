@@ -1,0 +1,8 @@
+git 用远程覆盖本地  
+git fetch --all
+git reset --hard origin/master
+
+使用git stash命令保存和恢复进度
+git stash
+git stash list
+git stash pop [–index] [stash_id]
